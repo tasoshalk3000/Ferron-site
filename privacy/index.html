@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ferron — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #0e0e12;
+    --surface: #16161b;
+    --text: #e8e8ee;
+    --text-dim: #9a9aa6;
+    --accent: #5B8FB9;
+    --border: #26262e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 0 20px;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 0 96px;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .logo svg { display: block; }
+  .logo span {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .effective {
+    color: var(--text-dim);
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 8px 0 24px;
+  }
+  h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 36px 0 12px;
+    letter-spacing: -0.01em;
+  }
+  p { margin-bottom: 14px; color: var(--text); }
+  p.lead { color: var(--text-dim); font-size: 17px; }
+  ul { margin: 0 0 14px 22px; }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #fff; font-weight: 600; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 26px;
+    margin: 24px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 48px 0;
+  }
+  footer {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="logo">
+    <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="9" fill="#111114"/>
+      <rect x="9" y="8" width="4.5" height="24" rx="1.6" fill="#bababc"/>
+      <rect x="17" y="8" width="13" height="4.5" rx="1.6" fill="#7e7e88"/>
+      <rect x="17" y="20" width="9.5" height="4.5" rx="1.6" fill="#7e7e88"/>
+      <circle cx="15" cy="10.2" r="1.3" fill="#a0a0aa"/>
+      <circle cx="15" cy="22.2" r="1.3" fill="#a0a0aa"/>
+    </svg>
+    <span>Ferron</span>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective date: June 2, 2026</p>
+
+  <p class="lead">Ferron is built around a simple principle: your data is yours. Ferron does not collect, store, sell, or transmit any personal information to us or to any third party.</p>
+
+  <div class="card">
+    <p><strong>The short version:</strong> Ferron has no servers, no analytics, no ads, and no tracking. Everything you configure stays on your own devices.</p>
+  </div>
+
+  <h2>What Ferron Does</h2>
+  <p>Ferron consists of two apps that work together: an iPhone app and a macOS companion app. The iPhone acts as a control surface for your Mac. The two apps communicate <strong>directly with each other over your local network</strong> using Apple's Multipeer Connectivity framework. This communication never passes through our servers — we don't operate any.</p>
+
+  <h2>Information We Collect</h2>
+  <p><strong>None.</strong> We do not collect personal data, usage analytics, device identifiers, or any other information about you. We have no ability to see how you use Ferron.</p>
+
+  <h2>Data Stored on Your Devices</h2>
+  <p>Ferron stores your configuration — such as app shortcuts, profiles, macros, keyboard shortcuts, and layout preferences — <strong>locally on your devices</strong>. This information stays on your devices and is never uploaded to us or to any third party.</p>
+
+  <h2>Permissions Ferron Uses</h2>
+  <ul>
+    <li><strong>Accessibility (Mac):</strong> Required so the Mac app can carry out the actions you trigger from your iPhone — pressing keys, moving windows, and controlling the cursor. This permission is granted by you in System Settings and is never transmitted anywhere.</li>
+    <li><strong>Local Network:</strong> Used to discover and connect your iPhone and Mac to each other. Connections are peer-to-peer and stay on your local network.</li>
+    <li><strong>Microphone & Speech Recognition (iPhone):</strong> Used only when you actively use the voice dictation feature. Audio is processed by Apple's speech recognition and is not stored or sent to us. This processing is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+    <li><strong>Clipboard (Mac):</strong> The optional clipboard manager reads your Mac's clipboard so recent items can appear on your iPhone for quick pasting. This content stays between your own devices and is never sent to us.</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>Ferron does not include any third-party analytics, advertising, or tracking SDKs. The only external party involved is Apple, through the standard speech recognition framework used for the optional dictation feature.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Ferron does not collect any data from anyone, including children. The app is rated suitable for all ages.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If this policy ever changes, the updated version will be posted on this page with a new effective date. Because Ferron collects no data, we don't anticipate material changes.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy or about Ferron, you can reach us at <a href="mailto:anastasios_halk@icloud.com">anastasios_halk@icloud.com</a>.</p>
+
+  <hr>
+  <footer>© 2026 Ferron. All rights reserved.</footer>
+
+</div>
+</body>
+</html>
