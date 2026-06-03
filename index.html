@@ -313,14 +313,13 @@
   .mac-shot {
     border-radius: 14px;
     overflow: hidden;
-    border: 1px solid var(--border);
-    background: #000;
+    background: transparent;
     box-shadow: 0 20px 60px rgba(0,0,0,0.35);
     transition: transform 0.3s ease;
   }
   .mac-shot:hover { transform: translateY(-3px); }
   .mac-shot img { display: block; width: 100%; height: auto; }
-  .mac-shot.wide { grid-column: 1 / -1; }
+  .mac-shot.wide { grid-column: 1 / -1; border-radius: 27px; }
 
   /* ===== PRICING ===== */
   .pricing { padding-bottom: 120px; }
